@@ -3,93 +3,86 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+  
 body {
-    background: #eaeaea;
+    background-color: #EAEAEA;
     font-family: 'Roboto', sans-serif;
 }
-
-h1 {
-    font-weight: 700;
-    font-size: 28px;;
-    text-align: center;
-    color: #1B1B1B;
-    line-height: 100px;
-}
-
-h2 {
-    font-weight: 700;
-    font-size: 20px;
-    text-align: center;
-    color: #1B1B1B;
-    line-height: 26px;
-    margin-bottom: 30px;
-}
-
-figcaption {
-    font-weight: 400;
-    text-align: center;
-    font-size: 0.8em;
-    color: #8F8F8F;
-    text-align: right;
-    line-height: 26px;
-    margin-bottom: 30px;
-}
-
-footer {
-    font-weight: 400;
-    font-size: 1em;
-    text-align: center;
-    color: #8F8F8F;
-    line-height: 26px;
-    margin-bottom: 30px;
-}
-
-ul {
-    font-weight: 400;
-    font-size: 16px;
-    text-align: left;
-    margin: 10px 30px;
-    line-height: 26px;
-    color: #39393A;
-    list-style-position:outside;
-    margin-bottom: 30px;
-}
-
-ol {
-    font-weight: 400;
-    font-size: 16px;
-    text-align: left;
-    margin: 10px 30px;
-    line-height: 26px;
-    color: #39393A;
-    list-style-position:outside;
-    margin-bottom: 30px;
-
-}
-
-p {
-    font-weight: 400;
-    font-size: 16px;
-    text-align: left;
-    margin: 10px 30px;
-    color: #39393A;
-    line-height: 26px;
-    margin-bottom: 30px;
-}
-
+  
 main {
     background-color: #FFFFFF;
-    margin: 50px 500px;
+    margin: 50px 550px;
     border-radius: 10px;
 }
-
-img {
+  
+h1 {
+    color: #1B1B1B;
+    font-size: 28px;
+    text-align: center;
+    line-height: 26px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+  
+h2 {
+    text-align: center;
+    color: #1B1B1B;
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 15px;
+  
+}
+  
+h3 {
+    color: #1B1B1B;
+    text-align: left;
+    font-size: 18px;
+    line-height: 26px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+  
+.pizza {
+    text-align: right;
+    font-size: 12px;
+    color: #8f8f8f;
+}
+  
+figcaption {
+    margin-bottom: 15px;
+}
+  
+    .pizza img {
     width: 100%;
-    height: 250px;
+    height: 10cm;
     object-fit: cover;
     border-radius: 10px;
     margin-bottom: 5px;
-    margin-top: 30px;
-
+    margin-right: 500px;
 }
+  
+ul, ol {
+    font-size: 16px;
+    line-height: 26px;
+    color: #39393A;
+    margin-left: 30px;
+    margin-bottom: 15px
+}
+  
+p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #39393A;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+  
+footer {
+    color: #8F8F8F;
+    font-size: 12px;
+    text-align: center;
+  
+}
+  
+  
+  
